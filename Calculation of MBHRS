@@ -1,0 +1,22 @@
+####Metabolomic Bone Health Risk Score (MBHRS) East Asian Version#####
+
+MBHRS_East_Aisan<-mutate(Metadata,MBHRS=((L1PN*1.795435)*0.1255697)+
+                       ((L1CH*1.70731)*0.1174345)+
+                       ((L1FC*1.502112)*0.1071588)+
+                       ((L1PL*1.764792)*0.1172162)+
+                       ((L1AB*1.7953775)*0.12557238)+
+                       ((H1CH*2.480787)*0.1286315)+
+                       ((H1PL*2.625925)*0.1263668)+
+                       ((L1LP*1.649353)*0.1173338)+
+                       ((H1LP*2.555115)*0.1292087) )
+
+####Metabolomic Bone Health Risk Score (MBHRS) UK Biobank Version#####
+
+MBHRS_East_Aisan<-mutate(Metadata,MBHRS=((L1PN*1.795435)*0.1255697)+
+                       ((L1CH*1.70731)*0.1174345)+
+                       ((L1FC*1.502112)*0.1071588)+
+                       ((L1PL*1.764792)*0.1172162)+
+                       ((H1CH*2.480787)*0.1286315)+
+                       ((H1PL*2.625925)*0.1263668)+
+                       ((L1LP*1.649353)*0.1173338)+
+                       ((H1LP*2.555115)*0.1292087) )
